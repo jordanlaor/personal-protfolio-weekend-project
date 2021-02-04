@@ -42,8 +42,12 @@ text: font-family: 'Yusei Magic', sans-serif; */
   color: var(--color-secondary);
 }
 
-.--text-color-gray {
-  color: var(--color-gray);
+.--text-color-light-gray {
+  color: var(--color-light-gray);
+}
+
+.--text-color-dark-gray {
+  color: var(--color-dark-gray);
 }
 
 /* Section */
@@ -80,7 +84,7 @@ text: font-family: 'Yusei Magic', sans-serif; */
   text-align: center;
   font-family: "Rubik", sans-serif;
   /* FIXME:font-weight: לא עובד איזה איכס; */
-  font-weight: bold;
+  font-weight: 900;
   font-size: 12vh;
   z-index: 1;
 }
@@ -89,5 +93,15 @@ text: font-family: 'Yusei Magic', sans-serif; */
   text-align: center;
   font-family: "Rubik", sans-serif;
   font-weight: 800;
-  font-size: 5.4rem;
+  font-size: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.section__h3 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
 }
