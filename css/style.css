@@ -113,13 +113,14 @@ text: font-family: 'Yusei Magic', sans-serif; */
   text-align: center;
   font-family: 'Rubik', sans-serif;
   font-weight: 900;
-  font-size: 12vh;
+  font-size: 11.8rem;
   z-index: 1;
 }
 
 /* About */
 .about__header {
-  margin: 0 5rem;
+  margin: 0 auto;
+  max-width: 88rem;
 }
 
 .about__content {
