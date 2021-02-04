@@ -5,4 +5,58 @@
 }
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&family=Yusei+Magic&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&family=Yusei+Magic&display=swap");
+/* titles: font-family: 'Rubik', sans-serif;
+text: font-family: 'Yusei Magic', sans-serif; */
+
+/* Modifiers */
+.--bg-color-light {
+  background-color: var(--color-light);
+}
+
+.--bg-color-dark {
+  background-color: var(--color-dark);
+}
+
+.--bg-color-primary {
+  background-color: var(--color-primary);
+}
+
+.--bg-color-secondary {
+  background-color: var(--color-secondary);
+}
+
+.--text-color-light {
+  color: var(--color-light);
+}
+
+.--text-color-dark {
+  color: var(--color-dark);
+}
+
+.--text-color-primary {
+  color: var(--color-primary);
+}
+
+.--text-color-secondary {
+  color: var(--color-secondary);
+}
+
+.--text-color-gray {
+  color: var(--color-gray);
+}
+
+/* Section */
+.section {
+  min-height: 100vh;
+}
+
+.section__hero {
+}
+
+.section__h2 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  font-size: 54rem;
+}
