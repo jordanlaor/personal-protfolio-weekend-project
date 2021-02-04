@@ -52,7 +52,17 @@ text: font-family: 'Yusei Magic', sans-serif; */
 }
 
 .section__hero {
+  background-color: var(--bg-color-secondary);
   background: url("../images/hero-background.jpg") center center / cover;
+  position: relative;
+}
+
+.section__hero::before {
+  background-color: inherit;
+  opacity: 0.75;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .section__h2 {
