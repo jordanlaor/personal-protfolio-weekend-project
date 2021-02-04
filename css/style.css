@@ -58,6 +58,7 @@ text: font-family: 'Yusei Magic', sans-serif; */
 }
 
 .section__hero::before {
+  content: "";
   background-color: inherit;
   opacity: 0.75;
   position: absolute;
