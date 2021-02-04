@@ -5,7 +5,6 @@
 }
 
 /* Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&family=Yusei+Magic&display=swap");
 /* titles: font-family: 'Rubik', sans-serif;
 text: font-family: 'Yusei Magic', sans-serif; */
 
@@ -83,7 +82,6 @@ text: font-family: 'Yusei Magic', sans-serif; */
 .hero-container__h1 {
   text-align: center;
   font-family: "Rubik", sans-serif;
-  /* FIXME:font-weight: לא עובד איזה איכס; */
   font-weight: 900;
   font-size: 12vh;
   z-index: 1;
@@ -104,4 +102,16 @@ text: font-family: 'Yusei Magic', sans-serif; */
   font-family: "Rubik", sans-serif;
   font-weight: 300;
   font-size: 1.4rem;
+}
+
+.section__p {
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
 }
