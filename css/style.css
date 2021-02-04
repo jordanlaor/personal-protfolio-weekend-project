@@ -68,9 +68,26 @@ text: font-family: 'Yusei Magic', sans-serif; */
   height: 100%;
 }
 
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero-container__h1 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  /* FIXME:font-weight: לא עובד איזה איכס; */
+  font-weight: bold;
+  font-size: 12vh;
+  z-index: 1;
+}
+
 .section__h2 {
   text-align: center;
   font-family: "Rubik", sans-serif;
   font-weight: 800;
-  font-size: 54rem;
+  font-size: 5.4rem;
 }
