@@ -54,6 +54,36 @@ text: font-family: 'Yusei Magic', sans-serif; */
   min-height: 100vh;
 }
 
+.section__h2 {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 800;
+  font-size: 10.2rem;
+  letter-spacing: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section__h3 {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.section__p {
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+/* Pages */
+.page {
+  padding: 2rem 5rem;
+}
+
+/* Hero */
 .section__hero {
   background-image: url('../images/hero-background.jpg');
   background-position: center center;
@@ -87,30 +117,7 @@ text: font-family: 'Yusei Magic', sans-serif; */
   z-index: 1;
 }
 
-.section__h2 {
-  text-align: center;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 800;
-  font-size: 10.2rem;
-  letter-spacing: 1.1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.section__h3 {
-  text-align: center;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 300;
-  font-size: 1.4rem;
-}
-
-.section__p {
-  font-family: 'Yusei Magic', sans-serif;
-  font-size: 2rem;
-  padding-bottom: 10px;
-}
-
+/* About */
 .about__header {
   margin: 0 5rem;
 }
@@ -124,7 +131,8 @@ text: font-family: 'Yusei Magic', sans-serif; */
 .about__h3 {
   display: grid;
   grid-template-columns: repeat(9, max-content);
-  gap: auto;
+  justify-content: space-between;
+  align-content: space-between;
   width: 100%;
 }
 
@@ -132,9 +140,4 @@ text: font-family: 'Yusei Magic', sans-serif; */
   height: 100%;
   width: 1px;
   background-color: var(--color-dark);
-}
-
-/* Pages */
-.page {
-  padding: 2rem 5rem;
 }
