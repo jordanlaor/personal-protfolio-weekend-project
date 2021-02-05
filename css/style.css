@@ -114,7 +114,7 @@ text: font-family: 'Yusei Magic', sans-serif; */
 
 /* Hero */
 .section__hero {
-  background-image: url('../images/hero-background.jpg');
+  background-image: url('../images/robotBG3.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
