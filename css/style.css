@@ -72,11 +72,31 @@ text: font-family: 'Yusei Magic', sans-serif; */
   font-size: 1.4rem;
 }
 
+.section__h3--grid {
+  display: grid;
+  grid-template-columns: repeat(9, max-content);
+  justify-content: space-between;
+  align-content: space-between;
+  width: 100%;
+}
+
 .section__p {
   font-family: 'Yusei Magic', sans-serif;
   font-size: 2rem;
   line-height: 1.5;
   padding-bottom: 10px;
+}
+
+.section__header,
+.section__content {
+  margin: 0 auto;
+  max-width: 88rem;
+}
+
+.section__h3-seperator {
+  height: 100%;
+  width: 1px;
+  background-color: var(--color-dark);
 }
 
 /* Pages */
@@ -120,12 +140,6 @@ text: font-family: 'Yusei Magic', sans-serif; */
 }
 
 /* About */
-.about__header,
-.about__content {
-  margin: 0 auto;
-  max-width: 88rem;
-}
-
 .about__content {
   display: grid;
   grid-template-columns: auto max-content;
@@ -133,20 +147,6 @@ text: font-family: 'Yusei Magic', sans-serif; */
   gap: 3rem;
   height: 70vh;
   padding: 10vh 0;
-}
-
-.about__h3 {
-  display: grid;
-  grid-template-columns: repeat(9, max-content);
-  justify-content: space-between;
-  align-content: space-between;
-  width: 100%;
-}
-
-.about__h3-seperator {
-  height: 100%;
-  width: 1px;
-  background-color: var(--color-dark);
 }
 
 .about__content-img > img {
