@@ -53,6 +53,10 @@ text: font-family: 'Yusei Magic', sans-serif; */
   color: var(--color-dark-gray);
 }
 
+.--position-relative {
+  position: relative;
+}
+
 /* Section */
 .section {
   min-height: 100vh;
@@ -260,9 +264,23 @@ text: font-family: 'Yusei Magic', sans-serif; */
 
 /* Contact */
 .page__contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   height: 100vh;
-  padding-bottom: 5rem;
+}
+
+.contact__social-link-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.contact__social-link {
+  display: grid;
+  grid-template-rows: max-content auto;
+  align-content: space-between;
+}
+
+.contact__social-link > p {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  margin: 0 auto;
 }
