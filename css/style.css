@@ -151,10 +151,23 @@ text: font-family: 'Yusei Magic', sans-serif; */
 
 .about__content-img > img {
   height: 50vh;
+  border-radius: 25%;
 }
 
 .about__content-text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+/* Projects */
+.projects__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  align-content: stretch;
+}
+
+.projects__box-1 {
+  background-img: ;
 }
