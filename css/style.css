@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Fonts */
 /* titles: font-family: 'Rubik', sans-serif;
 text: font-family: 'Yusei Magic', sans-serif; */
@@ -252,4 +256,13 @@ text: font-family: 'Yusei Magic', sans-serif; */
 .projects__box:hover > .projects__h4 {
   opacity: 1;
   transform: scale(1);
+}
+
+/* Contact */
+.page__contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding-bottom: 5rem;
 }
