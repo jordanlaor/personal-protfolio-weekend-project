@@ -285,6 +285,11 @@ text: font-family: 'Yusei Magic', sans-serif; */
   transform: scale(1);
 }
 
+/* Hobbies */
+.hobbies__content {
+  max-width: 730px;
+}
+
 /* Contact */
 .page__contact {
   height: 100vh;
