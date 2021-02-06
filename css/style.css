@@ -143,24 +143,32 @@ text: font-family: 'Yusei Magic', sans-serif; */
   margin: auto 1rem;
   display: flex;
   height: 100%;
-  background: orange;
+}
+
+.nav__container {
+  list-style: none;
 }
 
 .nav__item {
   margin-bottom: 0.5rem;
+  margin-left: 2px;
+  border-left: 1px solid;
+  opacity: 0.5;
+  transition: 1s ease-in-out;
 }
 
 .nav__item-link {
-  visibility: hidden;
+  margin-left: 4px;
+  opacity: 0;
+  transition: 1s ease-in-out;
 }
 
-.nav__item::before {
-  content: '';
-  width: 1px;
-  margin-right: 3px;
-  margin-left: 1px;
-  height: 100%;
-  background: var(--color-dark-gray);
+.nav__item:hover {
+  opacity: 1;
+}
+
+.nav__item-link:hover {
+  opacity: 1;
 }
 
 /* Hero */
