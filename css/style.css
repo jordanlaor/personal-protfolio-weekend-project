@@ -138,12 +138,29 @@ text: font-family: 'Yusei Magic', sans-serif; */
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 10;
+  z-index: 1;
   transform: translateY(50%);
   margin: auto 1rem;
   display: flex;
   height: 100%;
   background: orange;
+}
+
+.nav__item {
+  margin-bottom: 0.5rem;
+}
+
+.nav__item-link {
+  visibility: hidden;
+}
+
+.nav__item::before {
+  content: '';
+  width: 1px;
+  margin-right: 3px;
+  margin-left: 1px;
+  height: 100%;
+  background: var(--bg-color-dark-gray);
 }
 
 /* Hero */
