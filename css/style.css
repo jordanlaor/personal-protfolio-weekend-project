@@ -123,13 +123,6 @@ text: font-family: 'Yusei Magic', sans-serif; */
   width: 100%;
 }
 
-/* .section__h3-seperator {
-  height: 100%;
-  width: 1px;
-  background-color: var(--color-dark);
-  margin: 0 3px;
-} */
-
 .section__h2-last-letter {
   letter-spacing: normal;
 }
@@ -139,6 +132,20 @@ text: font-family: 'Yusei Magic', sans-serif; */
   padding: 5rem 5rem 0;
 }
 
+/* Nav */
+.nav {
+  float: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  transform: translateY(50%);
+  margin: auto 1rem;
+  display: flex;
+  height: 100%;
+  background: orange;
+}
+
 /* Hero */
 .section__hero {
   background-image: url('../images/robotBG3.jpg');
@@ -146,6 +153,7 @@ text: font-family: 'Yusei Magic', sans-serif; */
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  z-index: 8;
 }
 
 .section__hero::before {
@@ -155,6 +163,7 @@ text: font-family: 'Yusei Magic', sans-serif; */
   position: absolute;
   width: 100%;
   height: 100%;
+  z-index: 9;
 }
 
 .section__hero::after {
@@ -191,7 +200,7 @@ text: font-family: 'Yusei Magic', sans-serif; */
   font-weight: 900;
   font-size: 11.7rem;
   word-spacing: 2.2rem;
-  z-index: 1;
+  z-index: 9;
 }
 
 /* About */
