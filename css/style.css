@@ -132,45 +132,6 @@ text: font-family: 'Yusei Magic', sans-serif; */
   padding: 5rem 5rem 0;
 }
 
-/* Nav */
-.nav {
-  float: left;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  transform: translateY(50%);
-  margin: auto 1rem;
-  display: flex;
-  height: 100%;
-}
-
-.nav__container {
-  list-style: none;
-}
-
-.nav__item {
-  margin-bottom: 0.5rem;
-  margin-left: 2px;
-  border-left: 1px solid;
-  opacity: 0.5;
-  transition: 1s ease-in-out;
-}
-
-.nav__item-link {
-  margin-left: 4px;
-  opacity: 0;
-  transition: 1s ease-in-out;
-}
-
-.nav__item:hover {
-  opacity: 1;
-}
-
-.nav__item-link:hover {
-  opacity: 1;
-}
-
 /* Hero */
 .section__hero {
   background-image: url('../images/robotBG3.jpg');
@@ -248,8 +209,9 @@ text: font-family: 'Yusei Magic', sans-serif; */
   justify-content: space-between;
 }
 
-/* Projects */
-.projects__content {
+/* Projects (and Hobbies) */
+.projects__content,
+.hobbies__content {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   gap: 1rem;
@@ -257,28 +219,33 @@ text: font-family: 'Yusei Magic', sans-serif; */
   padding: 3rem 0;
 }
 
-.projects__box {
+.projects__box,
+.hobbies__box {
   overflow: hidden;
   border-radius: 1.3rem;
   position: relative;
   transition: 0.4s all ease-in-out;
 }
 
-.projects__box > img {
+.projects__box > img,
+.hobbies__box > img {
   width: 100%;
   object-fit: cover;
   object-position: center center;
   transition: 0.4s all ease-in-out;
 }
 
-.projects__box:hover {
+.projects__box:hover,
+.hobbies__box:hover {
   border-radius: 5rem;
 }
 
-.projects__box:hover > img {
+.projects__box:hover > img,
+.hobbies__box:hover > img {
   transform: scale(1.5);
 }
-.projects__box::after {
+.projects__box::after,
+.hobbies__box::after {
   content: '';
   width: 100%;
   height: 100%;
@@ -291,11 +258,13 @@ text: font-family: 'Yusei Magic', sans-serif; */
   transition: 0.4s all ease-in-out;
 }
 
-.projects__box:hover::after {
+.projects__box:hover::after,
+.hobbies__box:hover::after {
   background: var(--color-dark);
 }
 
-.projects__h4 {
+.projects__h4,
+.hobbies__h4 {
   z-index: 3;
   position: absolute;
   top: 0;
@@ -310,7 +279,8 @@ text: font-family: 'Yusei Magic', sans-serif; */
   transform: scale(2);
 }
 
-.projects__box:hover > .projects__h4 {
+.projects__box:hover > .projects__h4,
+.hobbies__box:hover > .hobbies__h4 {
   opacity: 1;
   transform: scale(1);
 }
