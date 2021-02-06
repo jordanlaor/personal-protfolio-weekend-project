@@ -115,6 +115,10 @@ text: font-family: 'Yusei Magic', sans-serif; */
   background-color: var(--color-dark);
 }
 
+.section__h2-last-letter {
+  letter-spacing: normal;
+}
+
 /* Pages */
 .page {
   padding: 5rem 5rem 0;
@@ -265,12 +269,17 @@ text: font-family: 'Yusei Magic', sans-serif; */
 /* Contact */
 .page__contact {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
 .contact__social-link-box {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, max-content);
   grid-template-rows: 1fr;
+  justify-content: space-between;
 }
 
 .contact__social-link {
@@ -283,4 +292,7 @@ text: font-family: 'Yusei Magic', sans-serif; */
   writing-mode: vertical-lr;
   text-orientation: mixed;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
