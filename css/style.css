@@ -321,6 +321,12 @@ text: font-family: 'Yusei Magic', sans-serif; */
   display: flex;
   align-items: center;
   width: 100%;
+  transition: 0.3s ease-in-out;
+}
+
+.contact__social-link:hover > p {
+  color: var(--color-dark-gray);
+  transform: scale(1.1);
 }
 
 .contact__social-links-seperator {
